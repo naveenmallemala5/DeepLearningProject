@@ -1,0 +1,14 @@
+12/20/2022 23:28:37 - INFO - __main__ -   Creating features from dataset file at reclor_data
+12/20/2022 23:28:37 - INFO - utils_multiple_choice -   LOOKING AT reclor_data train
+Traceback (most recent call last):
+  File "run_multiple_choice.py", line 819, in <module>
+    main()
+  File "run_multiple_choice.py", line 725, in main
+    train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
+  File "run_multiple_choice.py", line 437, in load_and_cache_examples
+    examples = processor.get_train_examples(args.data_dir)
+  File "/scratch/amw9425/DeepLearningProject/utils_multiple_choice.py", line 353, in get_train_examples
+    return self._create_examples(self._read_json(os.path.join(data_dir, "train.json")), "train")
+  File "/scratch/amw9425/DeepLearningProject/utils_multiple_choice.py", line 369, in _read_json
+    with open(input_file, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'reclor_data/train.json'

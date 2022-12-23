@@ -1,0 +1,171 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.7
+    framework: huggingface
+    huggingface_version: 4.25.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.6
+    start_time: 1671597067.107496
+    t:
+      1:
+      - 1
+      - 11
+      - 33
+      - 49
+      - 55
+      - 76
+      2:
+      - 1
+      - 11
+      - 33
+      - 49
+      - 55
+      - 76
+      3:
+      - 1
+      - 16
+      - 23
+      4: 3.8.6
+      5: 0.13.7
+      6: 4.25.1
+      8:
+      - 5
+adam_betas:
+  desc: null
+  value: (0.9, 0.98)
+adam_epsilon:
+  desc: null
+  value: 1.0e-06
+cache_dir:
+  desc: null
+  value: ''
+config_name:
+  desc: null
+  value: ''
+data_dir:
+  desc: null
+  value: reclor_data
+device:
+  desc: null
+  value: cuda
+do_eval:
+  desc: null
+  value: false
+do_lower_case:
+  desc: null
+  value: true
+do_test:
+  desc: null
+  value: true
+do_train:
+  desc: null
+  value: true
+eval_all_checkpoints:
+  desc: null
+  value: false
+evaluate_during_training:
+  desc: null
+  value: true
+fp16:
+  desc: null
+  value: false
+fp16_opt_level:
+  desc: null
+  value: O1
+gradient_accumulation_steps:
+  desc: null
+  value: 24
+learning_rate:
+  desc: null
+  value: 5.0e-06
+local_rank:
+  desc: null
+  value: -1
+logging_steps:
+  desc: null
+  value: 200
+max_doc_len:
+  desc: null
+  value: 200
+max_grad_norm:
+  desc: null
+  value: 1.0
+max_option_len:
+  desc: null
+  value: 20
+max_query_len:
+  desc: null
+  value: 31
+max_seq_length:
+  desc: null
+  value: 384
+max_steps:
+  desc: null
+  value: -1
+max_svo_len:
+  desc: null
+  value: 10
+model_name_or_path:
+  desc: null
+  value: roberta-large
+model_type:
+  desc: null
+  value: roberta
+n_gpu:
+  desc: null
+  value: 1
+no_clip_grad_norm:
+  desc: null
+  value: true
+no_cuda:
+  desc: null
+  value: false
+num_train_epochs:
+  desc: null
+  value: 10.0
+output_dir:
+  desc: null
+  value: Checkpoints/reclor_SVO/roberta-large
+overwrite_cache:
+  desc: null
+  value: false
+overwrite_output_dir:
+  desc: null
+  value: true
+per_gpu_eval_batch_size:
+  desc: null
+  value: 1
+per_gpu_train_batch_size:
+  desc: null
+  value: 1
+save_steps:
+  desc: null
+  value: 200
+seed:
+  desc: null
+  value: 42
+server_ip:
+  desc: null
+  value: ''
+server_port:
+  desc: null
+  value: ''
+task_name:
+  desc: null
+  value: reclor
+tokenizer_name:
+  desc: null
+  value: ''
+warmup_proportion:
+  desc: null
+  value: 0.1
+warmup_steps:
+  desc: null
+  value: 0
+weight_decay:
+  desc: null
+  value: 0.01
