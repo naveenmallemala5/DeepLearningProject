@@ -62,7 +62,7 @@ RECLOR_DIR = logiQA_data
 TASK_NAME = logiqa
 ```
 
-The accuracies of the "FOCAL REASONER" model on the dev sets are stored in the drive link "Checkpoints"(https://drive.google.com/drive/folders/1PmT5FETk8PCnZr8ZsGD0X-rIzC27OtN4?usp=sharing), with test results stored in "test_pred.npy"
+The accuracies of the "FOCAL REASONER" model on the dev sets are stored in the "Check_points" folder in drive link(https://drive.google.com/drive/folders/1PmT5FETk8PCnZr8ZsGD0X-rIzC27OtN4?usp=sharing), with test results stored in "test_pred.npy"
 
 ## Program_files folder
 
