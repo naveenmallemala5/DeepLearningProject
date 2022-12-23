@@ -16,7 +16,7 @@ CUDA_VISIBLE_DEVICES=0 python run_multiple_choice.py \
     --per_gpu_train_batch_size 1   \
     --gradient_accumulation_steps 24 \
     --learning_rate 5e-06 \
-    --num_train_epochs 5.0 \
+    --num_train_epochs 10.0 \
     --output_dir Checkpoints/${TASK_NAME}_SVO/${MODEL_NAME} \
     --logging_steps 200 \
     --save_steps 200 \
